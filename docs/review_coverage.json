@@ -1,0 +1,1212 @@
+{
+  "version": 1,
+  "artifact": {
+    "identity": "bike-sharing-demand-final-review",
+    "revision": "4e6719653a13a75cac71b4f6994e2de7a45daa6730a9134f17b9b778931b7545",
+    "view": "all five phases; six-page report; count CSV"
+  },
+  "categories": [
+    {
+      "id": "usefulness",
+      "label": "Usefulness and completeness",
+      "applicable": true,
+      "assessment": "All five phases and three submission files checked against the supplied brief. Registration and live evaluation are outside the file audit."
+    },
+    {
+      "id": "clarity",
+      "label": "Analytical clarity",
+      "applicable": true,
+      "assessment": "Five phase guides and the README simplified; formulas, settings, reasons and limits retained. Team understanding is not certified."
+    },
+    {
+      "id": "visual",
+      "label": "Visual and interaction consistency",
+      "applicable": true,
+      "assessment": "Six report pages and eleven figures; bonus page/figure inspected and ten original PNG outputs verified byte-identical."
+    },
+    {
+      "id": "authority",
+      "label": "Source authority and confidence",
+      "applicable": true,
+      "assessment": "All models use the supplied CSVs; original-source hashes match across all five artifacts."
+    },
+    {
+      "id": "values",
+      "label": "Calculation and value accuracy",
+      "applicable": true,
+      "assessment": "Independent reconstruction verifies five phase-score groups and the count submission; all numerical checks pass. Grid fits were regenerated, not each independently refitted."
+    },
+    {
+      "id": "chart",
+      "label": "Within-chart agreement",
+      "applicable": true,
+      "assessment": "Ten unchanged main figures plus one bonus figure with independently reconstructed metrics."
+    },
+    {
+      "id": "source-details",
+      "label": "Complete source details",
+      "applicable": false,
+      "assessment": "Not applicable: no dashboard source-detail panels. CSV paths, fitted transformations and source hashes are recorded in the notebook/artifacts.",
+      "reason": "This notebook/PDF project has no dashboard source-detail panels; sources are recorded through CSV paths, preprocessing and hashes."
+    },
+    {
+      "id": "cross",
+      "label": "Cross-artifact consistency",
+      "applicable": true,
+      "assessment": "Five phase-result groups agree across saved artifacts, displayed summaries and the report; submission reproduces final saved weights."
+    },
+    {
+      "id": "quality",
+      "label": "Data-quality controls",
+      "applicable": true,
+      "assessment": "Phase inputs preserve split IDs and training-only preprocessing; original hashes and final submission schema/order checked."
+    },
+    {
+      "id": "conclusions",
+      "label": "Conclusion support",
+      "applicable": true,
+      "assessment": "All five phase interpretations retain the small gains, conflicting temporal ranking and repeated-validation limits. No full-mark or causal claim is made."
+    }
+  ],
+  "units": [
+    {
+      "id": "phase-1",
+      "label": "Phase One results and explanation",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "final-usefulness",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 1 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "final-clarity",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 1 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "final-authority",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 1 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "final-values",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 1 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "final-cross",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 1 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "final-quality",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 1 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusions": {
+          "checks": [
+            {
+              "id": "final-conclusions",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 1 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "phase-2",
+      "label": "Phase Two results and explanation",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "final-usefulness",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 2 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "final-clarity",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 2 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "final-authority",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 2 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "final-values",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 2 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "final-cross",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 2 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "final-quality",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 2 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusions": {
+          "checks": [
+            {
+              "id": "final-conclusions",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 2 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "phase-3",
+      "label": "Phase Three results and explanation",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "final-usefulness",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 3 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "final-clarity",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 3 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "final-authority",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 3 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "final-values",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 3 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "final-cross",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 3 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "final-quality",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 3 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusions": {
+          "checks": [
+            {
+              "id": "final-conclusions",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 3 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "phase-4",
+      "label": "Phase Four results and explanation",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "final-usefulness",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 4 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "final-clarity",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 4 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "final-authority",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 4 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "final-values",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 4 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "final-cross",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 4 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "final-quality",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 4 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusions": {
+          "checks": [
+            {
+              "id": "final-conclusions",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 4 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "phase-5",
+      "label": "Phase Five results and explanation",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "final-usefulness",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 5 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "final-clarity",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 5 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "final-authority",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 5 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "final-values",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 5 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "final-cross",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 5 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "final-quality",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 5 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "conclusions": {
+          "checks": [
+            {
+              "id": "final-conclusions",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json independently reconstructed Phase 5 results; notebook phase block and README phase guide inspected; final Review JSON verifies initial/final cells and hashes."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "readme-guide",
+      "label": "README team guide",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "clarity": {
+          "checks": [
+            {
+              "id": "final-clarity",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "README glossary, phase walkthroughs, settings, reasons, results and live-explanation questions read after rewrite."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "notebook-deliverable",
+      "label": "Executable notebook",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "final-usefulness",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/final_review.json: 36 sequentially executed code cells, no errors, five original Expectations and five explicit final Outcomes."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pdf-deliverable",
+      "label": "Six-page report",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "final-usefulness",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/final_review.json: six pages, measured settings and scores; each final page rendered and visually checked."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "count-submission",
+      "label": "Final rental-count CSV",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "usefulness": {
+          "checks": [
+            {
+              "id": "final-usefulness",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json: all 574 IDs/order and predictions match final saved full-label regressor within floating-point tolerance; source/submission hashes match."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "authority": {
+          "checks": [
+            {
+              "id": "final-authority",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json: all 574 IDs/order and predictions match final saved full-label regressor within floating-point tolerance; source/submission hashes match."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "final-values",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json: all 574 IDs/order and predictions match final saved full-label regressor within floating-point tolerance; source/submission hashes match."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "final-cross",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json: all 574 IDs/order and predictions match final saved full-label regressor within floating-point tolerance; source/submission hashes match."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "final-quality",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "docs/numeric_audit.json: all 574 IDs/order and predictions match final saved full-label regressor within floating-point tolerance; source/submission hashes match."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "figure-1",
+      "label": "Notebook figure 1",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-1; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "final-chart",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-1; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "figure-2",
+      "label": "Notebook figure 2",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-2; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "final-chart",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-2; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "figure-3",
+      "label": "Notebook figure 3",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-3; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "final-chart",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-3; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "figure-4",
+      "label": "Notebook figure 4",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-4; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "final-chart",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-4; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "figure-5",
+      "label": "Notebook figure 5",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-5; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "final-chart",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-5; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "figure-6",
+      "label": "Notebook figure 6",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-6; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "final-chart",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-6; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "figure-7",
+      "label": "Notebook figure 7",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-7; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "final-chart",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-7; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "figure-8",
+      "label": "Notebook figure 8",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-8; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "final-chart",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-8; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "figure-9",
+      "label": "Notebook figure 9",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-9; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "final-chart",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-9; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "figure-10",
+      "label": "Notebook figure 10",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-10; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "final-chart",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "Notebook embedded PNG figure-10; docs/final_review.json verifies byte identity with the previously inspected figure; plotting code and numerical inputs unchanged."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pdf-page-1",
+      "label": "PDF page 1",
+      "kind": "component",
+      "revision": "4e6719653a13a75cac71b4f6994e2de7a45daa6730a9134f17b9b778931b7545",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "4e6719653a13a75cac71b4f6994e2de7a45daa6730a9134f17b9b778931b7545",
+              "evidence": [
+                "Revised report page one rendered and inspected with bonus derivation, optimizer settings and measured cost/RMSE comparison."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pdf-page-2",
+      "label": "PDF page 2",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "project_report.pdf PDF page 2: current page rendered and inspected; docs/final_review.json verifies six pages."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pdf-page-3",
+      "label": "PDF page 3",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "project_report.pdf PDF page 3: current page rendered and inspected; docs/final_review.json verifies six pages."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pdf-page-4",
+      "label": "PDF page 4",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "project_report.pdf PDF page 4: current page rendered and inspected; docs/final_review.json verifies six pages."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pdf-page-5",
+      "label": "PDF page 5",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "project_report.pdf PDF page 5: current page rendered and inspected; docs/final_review.json verifies six pages."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pdf-page-6",
+      "label": "PDF page 6",
+      "kind": "component",
+      "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "final-visual",
+              "state": "passed",
+              "revision": "a018080aa00022f19850faf19862fdae412f55b5601104acb194d5cf40ff3a52",
+              "evidence": [
+                "project_report.pdf PDF page 6: current page rendered and inspected; docs/final_review.json verifies six pages."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "bonus-operator-cost-figure",
+      "label": "Bonus training cost and hourly predictions",
+      "kind": "component",
+      "revision": "4e6719653a13a75cac71b4f6994e2de7a45daa6730a9134f17b9b778931b7545",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "bonus-visual",
+              "state": "passed",
+              "revision": "4e6719653a13a75cac71b4f6994e2de7a45daa6730a9134f17b9b778931b7545",
+              "evidence": [
+                "Executed Phase One bonus figure visually inspected; docs/bonus_verification.json independently reconstructs cost and prediction metrics."
+              ]
+            }
+          ],
+          "findings": []
+        },
+        "chart": {
+          "checks": [
+            {
+              "id": "bonus-chart",
+              "state": "passed",
+              "revision": "4e6719653a13a75cac71b4f6994e2de7a45daa6730a9134f17b9b778931b7545",
+              "evidence": [
+                "Executed Phase One bonus figure visually inspected; docs/bonus_verification.json independently reconstructs cost and prediction metrics."
+              ]
+            }
+          ],
+          "findings": []
+        }
+      }
+    }
+  ],
+  "bonus_incremental_review": {
+    "evidence": "docs/bonus_verification.json",
+    "checks_passed": 43,
+    "new_figure_inspected": true,
+    "revised_report_page_one_inspected": true,
+    "main_phase_artifacts_and_submission_unchanged": true,
+    "note": "Earlier inventory covers the main pipeline; this incremental record covers the added bonus."
+  }
+}

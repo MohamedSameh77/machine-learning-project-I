@@ -1,0 +1,228 @@
+{
+  "seed": 29578,
+  "rows": {
+    "train": 8708,
+    "validation": 2178,
+    "test": 574
+  },
+  "checks": {
+    "seed": true,
+    "phase1_split": true,
+    "phase1_source_train.csv": true,
+    "phase1_source_test.csv": true,
+    "phase1_source_sample_submission.csv": true,
+    "phase2_split": true,
+    "phase2_source_train.csv": true,
+    "phase2_source_test.csv": true,
+    "phase2_source_sample_submission.csv": true,
+    "phase2_upstream": true,
+    "phase3_split": true,
+    "phase3_source_train.csv": true,
+    "phase3_source_test.csv": true,
+    "phase3_source_sample_submission.csv": true,
+    "phase3_upstream": true,
+    "phase4_split": true,
+    "phase4_source_train.csv": true,
+    "phase4_source_test.csv": true,
+    "phase4_source_sample_submission.csv": true,
+    "phase4_upstream": true,
+    "phase5_split": true,
+    "phase5_source_train.csv": true,
+    "phase5_source_test.csv": true,
+    "phase5_source_sample_submission.csv": true,
+    "phase5_upstream": true,
+    "base_training_only_means": true,
+    "base_training_only_scales": true,
+    "training_only_levels_hr": true,
+    "training_only_levels_season": true,
+    "training_only_levels_weathersit": true,
+    "training_only_levels_weekday": true,
+    "training_only_levels_mnth": true,
+    "phase1_training_matching": true,
+    "phase1_validation_matching": true,
+    "phase2_training_matching": true,
+    "phase2_validation_matching": true,
+    "phase3_training_matching": true,
+    "phase3_validation_matching": true,
+    "phase4_Elastic Net_training_matching": true,
+    "phase4_Elastic Net_validation_matching": true,
+    "phase4_Lasso_training_matching": true,
+    "phase4_Lasso_validation_matching": true,
+    "phase4_Ridge_training_matching": true,
+    "phase4_Ridge_validation_matching": true,
+    "phase2_training_only_power_means": true,
+    "phase2_training_only_power_scales": true,
+    "phase3_training_only_power_means": true,
+    "phase3_training_only_power_scales": true,
+    "phase4_training_only_power_means": true,
+    "phase4_training_only_power_scales": true,
+    "chronological_order": true,
+    "chronological_complete_partition": true,
+    "chronological_training_only_means": true,
+    "chronological_training_only_scales": true,
+    "phase3_chronological_training_matching": true,
+    "phase3_chronological_validation_matching": true,
+    "phase4_exact_nonzero_mask": true,
+    "phase5_exact_handoff_mask": true,
+    "phase5_global_cutoff": true,
+    "phase5_cutoff_0_0": true,
+    "phase5_cutoff_0_1": true,
+    "phase5_cutoff_1_0": true,
+    "phase5_cutoff_1_1": true,
+    "phase5_cutoff_2_0": true,
+    "phase5_cutoff_2_1": true,
+    "phase5_cutoff_3_0": true,
+    "phase5_cutoff_3_1": true,
+    "phase5_cutoff_4_0": true,
+    "phase5_cutoff_4_1": true,
+    "phase5_cutoff_5_0": true,
+    "phase5_cutoff_5_1": true,
+    "phase5_cutoff_6_0": true,
+    "phase5_cutoff_6_1": true,
+    "phase5_cutoff_7_0": true,
+    "phase5_cutoff_7_1": true,
+    "phase5_cutoff_8_0": true,
+    "phase5_cutoff_8_1": true,
+    "phase5_cutoff_9_0": true,
+    "phase5_cutoff_9_1": true,
+    "phase5_cutoff_10_0": true,
+    "phase5_cutoff_10_1": true,
+    "phase5_cutoff_11_0": true,
+    "phase5_cutoff_11_1": true,
+    "phase5_cutoff_12_0": true,
+    "phase5_cutoff_12_1": true,
+    "phase5_cutoff_13_0": true,
+    "phase5_cutoff_13_1": true,
+    "phase5_cutoff_14_0": true,
+    "phase5_cutoff_14_1": true,
+    "phase5_cutoff_15_0": true,
+    "phase5_cutoff_15_1": true,
+    "phase5_cutoff_16_0": true,
+    "phase5_cutoff_16_1": true,
+    "phase5_cutoff_17_0": true,
+    "phase5_cutoff_17_1": true,
+    "phase5_cutoff_18_0": true,
+    "phase5_cutoff_18_1": true,
+    "phase5_cutoff_19_0": true,
+    "phase5_cutoff_19_1": true,
+    "phase5_cutoff_20_0": true,
+    "phase5_cutoff_20_1": true,
+    "phase5_cutoff_21_0": true,
+    "phase5_cutoff_21_1": true,
+    "phase5_cutoff_22_0": true,
+    "phase5_cutoff_22_1": true,
+    "phase5_cutoff_23_0": true,
+    "phase5_cutoff_23_1": true,
+    "phase5_training_metrics": true,
+    "phase5_classifier_gradient": true,
+    "phase5_validation_metrics": true,
+    "phase5_confusion_matrix": true,
+    "phase4_Elastic Net_optimum_kkt": true,
+    "phase4_Lasso_optimum_kkt": true,
+    "phase4_Ridge_optimum_kkt": true,
+    "final_full_refit_optimum_kkt": true,
+    "phase2_warm_start_preserved": true,
+    "submission_ids": true,
+    "submission_predictions": true,
+    "submission_hash": true,
+    "submission_finite_nonnegative": true
+  },
+  "metrics": {
+    "phase1_training": {
+      "R2": 0.693707155360479,
+      "RMSE": 100.26311189050418
+    },
+    "phase1_validation": {
+      "R2": 0.6979509766038063,
+      "RMSE": 99.46491297370606
+    },
+    "phase2_training": {
+      "R2": 0.700357615090484,
+      "RMSE": 99.16864440905272
+    },
+    "phase2_validation": {
+      "R2": 0.7037505629730627,
+      "RMSE": 98.5053811784622
+    },
+    "phase3_training": {
+      "R2": 0.7014918998463067,
+      "RMSE": 98.98076688969654
+    },
+    "phase3_validation": {
+      "R2": 0.7047096277491695,
+      "RMSE": 98.34580344724712
+    },
+    "phase4_Elastic Net_training": {
+      "R2": 0.7014918930660097,
+      "RMSE": 98.98076801381842
+    },
+    "phase4_Elastic Net_validation": {
+      "R2": 0.7047091097753502,
+      "RMSE": 98.34588970222504
+    },
+    "phase4_Lasso_training": {
+      "R2": 0.7014906275303034,
+      "RMSE": 98.98097782983427
+    },
+    "phase4_Lasso_validation": {
+      "R2": 0.7047214520446952,
+      "RMSE": 98.34383439983759
+    },
+    "phase4_Ridge_training": {
+      "R2": 0.7014917608991345,
+      "RMSE": 98.98078992608323
+    },
+    "phase4_Ridge_validation": {
+      "R2": 0.7047068117818481,
+      "RMSE": 98.34627237196408
+    },
+    "phase3_chronological_training": {
+      "R2": 0.7029556383341762,
+      "RMSE": 90.72079969972008
+    },
+    "phase3_chronological_validation": {
+      "R2": 0.6408949700493154,
+      "RMSE": 130.36306044350403
+    },
+    "phase5_training": {
+      "accuracy": 0.8640330730362885,
+      "precision": 0.7173224785165083,
+      "recall": 0.7393939393939394,
+      "F1": 0.7281910009182736,
+      "ROC_AUC": 0.9117723253941447,
+      "average_precision": 0.7668326369621752
+    },
+    "phase5_validation": {
+      "accuracy": 0.8787878787878788,
+      "precision": 0.7707948243992606,
+      "recall": 0.748653500897666,
+      "F1": 0.7595628415300546,
+      "ROC_AUC": 0.9159882024195451,
+      "average_precision": 0.7903007141804052
+    },
+    "phase4_Elastic Net_optimum": {
+      "kkt_max": 7.108375510956491e-06,
+      "intercept_gradient": 5.6190646480688494e-14
+    },
+    "phase4_Lasso_optimum": {
+      "kkt_max": 6.631932124592788e-06,
+      "intercept_gradient": 4.822682344323032e-14
+    },
+    "phase4_Ridge_optimum": {
+      "kkt_max": 7.03376719765527e-06,
+      "intercept_gradient": 7.916823426089568e-14
+    },
+    "final_full_refit_optimum": {
+      "kkt_max": 7.034696451291983e-06,
+      "intercept_gradient": 2.095906562192409e-12
+    }
+  },
+  "failures": [],
+  "submission_max_absolute_error": 5.684341886080802e-14,
+  "limitations": [
+    "validation reused for degree, penalty and decision-threshold tuning; estimates are optimistic",
+    "mask selected with count labels before logistic classification; intended phase handoff, not independent classifier evaluation",
+    "weather grouping was changed after observing validation coverage; this is disclosed adaptive modeling",
+    "no fit rerun; audits predictions and training-derived transforms from saved weights"
+  ]
+}

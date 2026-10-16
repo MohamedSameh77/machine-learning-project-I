@@ -7,3 +7,4 @@ ipykernel
 nbformat
 nbclient
 nbconvert
+threadpoolctl

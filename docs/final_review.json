@@ -1,0 +1,54 @@
+{
+  "review_date": "2026-10-17",
+  "scope": "Notebook, report, prediction CSV and five saved phase artifacts against supplied 7-page brief; optional asymmetric-cost bonus",
+  "readiness": "Share with caveats",
+  "technical_requirements": "No observed missing mandatory technical item within reviewed scope",
+  "notebook_cells": 91,
+  "executed_code_cells": 36,
+  "phase_expectations": 5,
+  "phase_final_outcomes": 5,
+  "preserved_original_expectations": true,
+  "independent_numeric_checks": 120,
+  "independent_numeric_failures": [],
+  "source_hashes_verified": true,
+  "upstream_hashes_verified": true,
+  "report_pages": 6,
+  "saved_plot_figures": 11,
+  "submission_rows": 574,
+  "optional_bonus": "Implemented: 3:1 weighted squared loss; own GD; report derivative; measured shift and cost comparison",
+  "outside_file_audit": [
+    "team registration and roster confirmation",
+    "submission through course form",
+    "live explanation and code changes by each member",
+    "hidden-test scores",
+    "independent proof of when initial expectations were written"
+  ],
+  "limitations": [
+    "validation reused for degree, penalty and decision-threshold tuning; estimates are optimistic",
+    "mask selected with count labels before logistic classification; intended phase handoff, not independent classifier evaluation",
+    "weather grouping was changed after observing validation coverage; this is disclosed adaptive modeling",
+    "independent main-pipeline audit checks saved weights; current full notebook rerun and incremental bonus audit also passed"
+  ],
+  "current_file_hashes": {
+    "bike_sharing_demand.ipynb": "4e6719653a13a75cac71b4f6994e2de7a45daa6730a9134f17b9b778931b7545",
+    "project_report.pdf": "a0597a66b20f9e8fad8d2c3935764eea45329f5ca74dd69e3c6cfdd623f22a2c",
+    "sample_submission.csv": "5da16db46d425fa36aabd2e54e571a915f6f1c8ddb3c175501aaa793f5f6d410",
+    "artifacts/bonus_asymmetric.json": "20783b2756dbbe5ba70c8ec9458c7b4964dff0c2ab01dac12c1127973c53d7ff"
+  },
+  "unchanged_plot_outputs": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "main_pipeline_calculation_AST_unchanged": true,
+  "bonus_checks_passed": 43,
+  "bonus_cost_reduction_percent": 20.047492481859997,
+  "bonus_visual_review": "New hourly comparison/training-cost figure and revised report page one inspected"
+}
